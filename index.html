@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>300 Lembrancinhas para Natal — Prontas para Imprimir, Recortar e Montar</title>
+  <meta name="description" content="300 modelos de lembrancinhas de Natal prontas para imprimir, recortar e montar em casa. Receba direto no WhatsApp!" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fredoka para destaque natalino -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Fredoka"', 'sans-serif'],
+          },
+          colors: {
+            natalRed: '#B91C1C',
+            natalDarkRed: '#7F1D1D',
+            natalGreen: '#15803D',
+            natalDarkGreen: '#14532D',
+            natalGold: '#F59E0B',
+            natalCream: '#FFFDF8',
+          },
+          animation: {
+            'pulse-fast': 'pulse 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'bounce-slow': 'bounce 2.4s infinite',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #FFFDF8;
+      color: #1F2937;
+      overflow-x: hidden;
+    }
+
+    /* Padrão sutil natalino no fundo do topo */
+    .hero-bg {
+      background: radial-gradient(circle at top center, #991B1B 0%, #7F1D1D 55%, #581111 100%);
+      position: relative;
+    }
+
+    /* Efeito de brilho dourado na imagem principal */
+    .hero-image-glow {
+      box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.55), 0 0 0 4px rgba(251, 191, 36, 0.85), 0 0 30px rgba(245, 158, 11, 0.45);
+    }
+
+    /* Botão CTA pulsante de alta conversão */
+    .cta-btn-green {
+      background: linear-gradient(180deg, #22C55E 0%, #15803D 100%);
+      box-shadow: 0 6px 0 #14532D, 0 12px 24px rgba(21, 128, 61, 0.4);
+      transition: all 0.15s ease;
+    }
+    .cta-btn-green:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 0 #14532D, 0 16px 28px rgba(21, 128, 61, 0.5);
+    }
+    .cta-btn-green:active {
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 #14532D;
+    }
+
+    .cta-btn-gold {
+      background: linear-gradient(180deg, #FBBF24 0%, #D97706 100%);
+      box-shadow: 0 6px 0 #92400E, 0 12px 24px rgba(217, 119, 6, 0.35);
+      transition: all 0.15s ease;
+    }
+    .cta-btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 0 #92400E, 0 16px 28px rgba(217, 119, 6, 0.45);
+    }
+    .cta-btn-gold:active {
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 #92400E;
+    }
+
+    /* Flocos de neve leves */
+    .snowflake {
+      position: fixed;
+      top: -10px;
+      color: rgba(255, 255, 255, 0.65);
+      user-select: none;
+      pointer-events: none;
+      z-index: 40;
+      animation-name: fall;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(-10vh) rotate(0deg); }
+      100% { transform: translateY(110vh) rotate(360deg); }
+    }
+
+    /* Accordion FAQ */
+    .faq-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+    .faq-item.active .faq-content {
+      max-height: 300px;
+    }
+    .faq-item.active .faq-icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1149770624214476');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1149770624214476&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<body class="antialiased selection:bg-amber-300 selection:text-red-900">
+
+  <!-- Container de flocos de neve sutis -->
+  <div id="snow-container" aria-hidden="true"></div>
+
+  <!-- BARRA DE URGÊNCIA NO TOPO -->
+  <div class="sticky top-0 z-50 bg-amber-400 text-red-950 border-b-2 border-amber-500 shadow-md">
+    <div class="max-w-4xl mx-auto px-3 py-2 flex flex-wrap items-center justify-center gap-2 text-center text-xs sm:text-sm font-extrabold tracking-tight">
+      <span>🎄 OFERTA RELÂMPAGO DE NATAL 2026 — DESCONTO LIBERADO POR:</span>
+      <span id="countdown" class="bg-red-800 text-white px-2.5 py-0.5 rounded-md font-mono text-sm sm:text-base shadow-inner">
+        14:59
+      </span>
+    </div>
+  </div>
+
+  <!-- SEÇÃO HERO (HEADLINE + SUBHEADLINE + IMAGEM PRINCIPAL MELHORADA) -->
+  <header class="hero-bg text-white pt-7 pb-12 sm:pt-10 sm:pb-16 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+
+      <!-- Badge Pré-Headline -->
+      <div class="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-amber-300/50 text-amber-200 px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider mb-4 shadow-sm">
+        <span>🎅</span>
+        <span>Pronto para Imprimir, Recortar e Montar</span>
+        <span>✨</span>
+      </div>
+
+      <!-- Headline Principal (H1) -->
+      <h1 class="font-display text-2xl sm:text-4xl md:text-[42px] font-bold leading-tight tracking-tight text-white drop-shadow-sm mb-4">
+        🎄 Natal Tá Chegando e Você Ainda Não Sabe o Que Fazer de Lembrancinha? <span class="text-amber-300 underline decoration-amber-400/80 decoration-4 underline-offset-4">Olha Isso Aqui!</span>
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-base sm:text-lg md:text-xl text-red-50/95 font-medium leading-relaxed max-w-2xl mx-auto mb-7">
+        kit com <strong class="text-amber-300 font-extrabold">300 modelos de lembrancinhas de Natal</strong> prontas para imprimir, recortar e montar em casa — <span class="underline decoration-amber-300/70">sem precisar criar nada do zero</span> e sem perder horas procurando arquivo solto na internet! 🎁❤️
+      </p>
+
+      <!-- IMAGEM PRINCIPAL LOGO APÓS HEADLINE E SUBHEADLINE (MELHORADA COM MOLDURA PREMIUM) -->
+      <div class="relative max-w-xl mx-auto mb-8">
+        <!-- Selo Superior Flutuante -->
+        <div class="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-600 to-green-700 text-white text-xs sm:text-sm font-extrabold px-4 py-1.5 rounded-t-xl border-t border-x border-emerald-400 shadow-lg">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>ENVIO IMEDIATO NO WHATSAPP E E-MAIL</span>
+        </div>
+
+        <!-- Moldura da Imagem Principal -->
+        <div class="relative rounded-2xl overflow-hidden bg-white p-1.5 sm:p-2 hero-image-glow">
+          <div class="relative rounded-xl overflow-hidden bg-amber-50">
+            <img
+              src="pack-natal-300.webp"
+              alt="Kit 300 Lembrancinhas para Natal Prontas para Imprimir"
+              class="w-full h-auto object-cover rounded-xl transform transition duration-500 hover:scale-[1.015]"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x800/991B1B/FBBF24?text=300+Lembrancinhas+para+Natal+%F0%9F%8E%84';"
+            />
+
+            <!-- Selo de Qualidade no Canto Inferior Direito -->
+            <div class="absolute bottom-3 right-3 bg-red-900/95 backdrop-blur-md border-2 border-amber-400 text-white px-3 py-1.5 rounded-xl shadow-xl flex items-center gap-2">
+              <span class="text-xl">🖨️</span>
+              <div class="text-left leading-tight">
+                <p class="text-[10px] uppercase tracking-wider text-amber-300 font-bold">Alta Resolução</p>
+                <p class="text-xs sm:text-sm font-extrabold">Arquivo Pronto PDF</p>
+              </div>
+            </div>
+
+            <!-- Selo no Canto Inferior Esquerdo -->
+            <div class="absolute bottom-3 left-3 bg-emerald-800/95 backdrop-blur-md border border-emerald-400 text-white px-3 py-1.5 rounded-xl shadow-xl hidden sm:flex items-center gap-1.5">
+              <i class="fa-solid fa-check-circle text-amber-300"></i>
+              <span class="text-xs font-bold">Modelos Cristãos & Gerais</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Micro-benefícios logo abaixo da foto -->
+        <div class="grid grid-cols-3 gap-2 mt-4 text-xs sm:text-sm font-bold text-amber-100">
+          <div class="bg-white/10 rounded-xl py-2 px-2 border border-white/15 flex flex-col sm:flex-row items-center justify-center gap-1.5">
+            <span class="text-base">📲</span>
+            <span>Direto no WhatsApp</span>
+          </div>
+          <div class="bg-white/10 rounded-xl py-2 px-2 border border-white/15 flex flex-col sm:flex-row items-center justify-center gap-1.5">
+            <span class="text-base">✂️</span>
+            <span>Só Imprimir e Montar</span>
+          </div>
+          <div class="bg-white/10 rounded-xl py-2 px-2 border border-white/15 flex flex-col sm:flex-row items-center justify-center gap-1.5">
+            <span class="text-base">💰</span>
+            <span>A partir de R$ 4,99</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão CTA Principal -->
+      <div class="max-w-md mx-auto">
+        <a href="#ofertas" class="cta-btn-green block w-full text-white font-extrabold text-base sm:text-xl py-4 px-6 rounded-2xl uppercase tracking-wide text-center">
+          QUERO GARANTIR MEU KIT AGORA 🎁
+        </a>
+        <p class="text-xs text-red-200 mt-2.5 flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-lock text-amber-300"></i>
+          <span>Compra 100% Segura • Acesso Liberado na Hora</span>
+        </p>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- SEÇÃO 2: ONDE USAR AS LEMBRANCINHAS (COPY EXATA DO USUÁRIO) -->
+  <section class="py-12 sm:py-16 px-4 max-w-4xl mx-auto">
+    <div class="text-center mb-8">
+      <span class="inline-block bg-red-100 text-red-800 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full mb-2">
+        Versátil e Econômico
+      </span>
+      <h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
+        🎄 Tem Opções Lindas Para Usar Em:
+      </h2>
+      <p class="text-gray-600 mt-2 text-sm sm:text-base max-w-xl mx-auto">
+        Com um único kit você resolve todas as suas lembrancinhas de fim de ano gastando centavos por unidade!
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- Card 1: Escolas -->
+      <div class="bg-white rounded-2xl p-5 border-2 border-red-100 shadow-sm hover:border-red-300 transition flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-red-100 text-red-700 flex items-center justify-center text-2xl shrink-0">
+          🎄
+        </div>
+        <div>
+          <h3 class="font-extrabold text-lg text-gray-900">Escolas</h3>
+          <p class="text-sm text-gray-600 mt-1">Perfeito para professoras, alunos, turminhas de educação infantil e encerramento do ano letivo.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Empresas -->
+      <div class="bg-white rounded-2xl p-5 border-2 border-emerald-100 shadow-sm hover:border-emerald-300 transition flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl shrink-0">
+          🏢
+        </div>
+        <div>
+          <h3 class="font-extrabold text-lg text-gray-900">Empresas</h3>
+          <p class="text-sm text-gray-600 mt-1">Encante clientes, colaboradores, equipes e parceiros com mimos corporativos elegantes e baratos.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Igrejas -->
+      <div class="bg-white rounded-2xl p-5 border-2 border-amber-100 shadow-sm hover:border-amber-300 transition flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl shrink-0">
+          ⛪
+        </div>
+        <div>
+          <h3 class="font-extrabold text-lg text-gray-900">Igrejas</h3>
+          <p class="text-sm text-gray-600 mt-1">Modelos cristãos lindos para ministério infantil, EBD, células, cultos de Natal e evangelismo.</p>
+        </div>
+      </div>
+
+      <!-- Card 4: Confraternizações -->
+      <div class="bg-white rounded-2xl p-5 border-2 border-red-100 shadow-sm hover:border-red-300 transition flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-red-100 text-red-700 flex items-center justify-center text-2xl shrink-0">
+          🥂
+        </div>
+        <div>
+          <h3 class="font-extrabold text-lg text-gray-900">Confraternizações</h3>
+          <p class="text-sm text-gray-600 mt-1">Ideal para amigo secreto, festas de fim de ano, encontros de grupos e ceia de Natal.</p>
+        </div>
+      </div>
+
+      <!-- Card 5: Presentes para amigos e familiares -->
+      <div class="bg-white rounded-2xl p-5 border-2 border-emerald-100 shadow-sm hover:border-emerald-300 transition flex items-start gap-4 sm:col-span-2 lg:col-span-2">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-2xl shrink-0">
+          🎁
+        </div>
+        <div>
+          <h3 class="font-extrabold text-lg text-gray-900">Presentes para Amigos e Familiares</h3>
+          <p class="text-sm text-gray-600 mt-1">Transforme um simples bombom, Bis, Baton ou lápis em um presente inesquecível feito com carinho por você!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 3: O QUE VOCÊ VAI ENCONTRAR DENTRO DO KIT -->
+  <section class="bg-red-950 text-white py-12 sm:py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="inline-block bg-amber-400 text-red-950 text-xs font-extrabold uppercase tracking-wider px-3 py-1 rounded-full mb-2">
+          Variedade Incrível
+        </span>
+        <h2 class="font-display text-2xl sm:text-3xl md:text-4xl font-bold">
+          ✨ O Que Vem Dentro do Kit?
+        </h2>
+        <p class="text-red-200 mt-2 text-sm sm:text-base max-w-2xl mx-auto">
+          Tem modelos cristãos, modelos mais gerais e várias opções diferentes pra você usar no seu Natal sem dor de cabeça:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div class="bg-white/10 border border-white/15 rounded-2xl p-4 flex items-center gap-3.5">
+          <span class="text-3xl">🍫</span>
+          <div>
+            <h3 class="font-bold text-amber-300 text-base sm:text-lg">Porta-Chocolate, Bis e Bombom</h3>
+            <p class="text-xs sm:text-sm text-red-100">Cartões com encaixe perfeito para Bis, Baton, Prestígio e bombons.</p>
+          </div>
+        </div>
+
+        <div class="bg-white/10 border border-white/15 rounded-2xl p-4 flex items-center gap-3.5">
+          <span class="text-3xl">✏️</span>
+          <div>
+            <h3 class="font-bold text-amber-300 text-base sm:text-lg">Porta-Lápis e Marca-Páginas</h3>
+            <p class="text-xs sm:text-sm text-red-100">Sucesso absoluto nas escolas e igrejas! Fáceis de recortar e montar.</p>
+          </div>
+        </div>
+
+        <div class="bg-white/10 border border-white/15 rounded-2xl p-4 flex items-center gap-3.5">
+          <span class="text-3xl">🏷️</span>
+          <div>
+            <h3 class="font-bold text-amber-300 text-base sm:text-lg">Tags e Etiquetas de Natal</h3>
+            <p class="text-xs sm:text-sm text-red-100">Tags lindas de "De / Para" e frases natalinas para amarrar em sacolinhas.</p>
+          </div>
+        </div>
+
+        <div class="bg-white/10 border border-white/15 rounded-2xl p-4 flex items-center gap-3.5">
+          <span class="text-3xl">💌</span>
+          <div>
+            <h3 class="font-bold text-amber-300 text-base sm:text-lg">Cartões, Envelopes e Caixinhas</h3>
+            <p class="text-xs sm:text-sm text-red-100">Modelos cristãos com mensagens de fé e modelos clássicos com Papai Noel e Boneco de Neve.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Passos Simples -->
+      <div class="bg-white text-gray-900 rounded-3xl p-6 sm:p-8 shadow-2xl border-4 border-amber-400">
+        <h3 class="font-display text-xl sm:text-2xl font-bold text-center text-red-900 mb-6">
+          🖨️ É Muito Simples! Veja Como Funciona:
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+          <div>
+            <div class="w-12 h-12 rounded-full bg-red-700 text-white font-extrabold text-xl flex items-center justify-center mx-auto mb-3 shadow">1</div>
+            <h4 class="font-extrabold text-base text-gray-900">Receba no WhatsApp</h4>
+            <p class="text-xs sm:text-sm text-gray-600 mt-1">Assim que confirmar, você recebe o acesso imediato no seu WhatsApp e E-mail.</p>
+          </div>
+          <div>
+            <div class="w-12 h-12 rounded-full bg-amber-500 text-red-950 font-extrabold text-xl flex items-center justify-center mx-auto mb-3 shadow">2</div>
+            <h4 class="font-extrabold text-base text-gray-900">Escolha e Imprima</h4>
+            <p class="text-xs sm:text-sm text-gray-600 mt-1">Escolha os modelos favoritos e imprima em folha A4 comum ou papel mais firminho.</p>
+          </div>
+          <div>
+            <div class="w-12 h-12 rounded-full bg-emerald-600 text-white font-extrabold text-xl flex items-center justify-center mx-auto mb-3 shadow">3</div>
+            <h4 class="font-extrabold text-base text-gray-900">Recorte e Monte!</h4>
+            <p class="text-xs sm:text-sm text-gray-600 mt-1">Em poucos minutos suas lembrancinhas estão prontas para encantar todo mundo!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 4: PROVA SOCIAL (DEPOIMENTOS REAIS) -->
+  <section class="py-12 sm:py-16 px-4 max-w-4xl mx-auto">
+    <div class="text-center mb-8">
+      <div class="inline-flex items-center gap-1 text-amber-500 text-lg mb-1">
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <h2 class="font-display text-2xl sm:text-3xl font-bold text-gray-900">
+        Quem Já Comprou Está Amando! ❤️
+      </h2>
+      <p class="text-sm sm:text-base text-gray-600 mt-1">
+        Mais de 4.800 professoras, mães, empreendedoras e líderes de igreja já garantiram o kit.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Depoimento 1 -->
+      <div class="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-red-700 text-white font-bold flex items-center justify-center">CM</div>
+          <div>
+            <p class="font-bold text-sm text-gray-900">Camila Martins</p>
+            <p class="text-xs text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check"></i> Professora • SP</p>
+          </div>
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          "Salvou minha vida! Eu precisava de 35 lembrancinhas para minha turminha e não queria gastar caro. Imprimi os porta-lápis e porta-Bis em casa e ficaram lindos demais!"
+        </p>
+      </div>
+
+      <!-- Depoimento 2 -->
+      <div class="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-emerald-700 text-white font-bold flex items-center justify-center">RS</div>
+          <div>
+            <p class="font-bold text-sm text-gray-900">Renata Souza</p>
+            <p class="text-xs text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check"></i> Ministério Infantil • MG</p>
+          </div>
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          "Amei que tem vários modelos cristãos lindos! Chegou na hora no meu WhatsApp, super organizado. Peguei o kit completo de R$ 9,99 e valeu cada centavo."
+        </p>
+      </div>
+
+      <!-- Depoimento 3 -->
+      <div class="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center">JP</div>
+          <div>
+            <p class="font-bold text-sm text-gray-900">Juliana Pereira</p>
+            <p class="text-xs text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check"></i> Empreendedora • PR</p>
+          </div>
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">
+          "Usei as tags e os cartõezinhos de chocolate para mandar de brinde nos pedidos das minhas clientes de dezembro. Todo mundo elogiou no Instagram!"
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 5: DUAS OFERTAS (R$ 4,99 E R$ 9,99) -->
+  <section id="ofertas" class="py-12 sm:py-16 px-4 bg-gradient-to-b from-amber-50/70 via-red-50/60 to-amber-50/70 border-y border-amber-200">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="inline-block bg-red-700 text-white text-xs font-extrabold uppercase tracking-wider px-4 py-1.5 rounded-full mb-2 shadow-sm">
+          🎅 Escolha Seu Pacote Promocional
+        </span>
+        <h2 class="font-display text-2xl sm:text-4xl font-bold text-gray-900">
+          Garanta Suas Lembrancinhas Hoje!
+        </h2>
+        <p class="text-sm sm:text-base text-gray-700 mt-2 max-w-xl mx-auto">
+          Pagamento único (sem mensalidade) com envio imediato direto no seu <strong>WhatsApp</strong> e <strong>E-mail</strong>.
+        </p>
+      </div>
+
+      <!-- Grid com 2 Ofertas: R$ 4,99 e R$ 9,99 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-stretch">
+
+        <!-- OFERTA 1: PACOTE BÁSICO R$ 4,99 -->
+        <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-gray-200 shadow-lg flex flex-col justify-between order-2 md:order-1">
+          <div>
+            <div class="text-center pb-5 border-b border-gray-100">
+              <span class="inline-block bg-gray-100 text-gray-700 text-xs font-extrabold uppercase px-3 py-1 rounded-full mb-2">
+                Opção Econômica
+              </span>
+              <h3 class="font-display text-2xl font-bold text-gray-900">Pacote Básico</h3>
+              <p class="text-xs text-gray-500 mt-1">Ideal para quem precisa de poucos modelos</p>
+
+              <div class="mt-4">
+                <span class="text-xs text-gray-400 line-through">De R$ 19,90 por</span>
+                <div class="flex items-baseline justify-center gap-1 text-gray-900 mt-0.5">
+                  <span class="text-xl font-extrabold">R$</span>
+                  <span class="font-display text-5xl font-bold tracking-tight">4,99</span>
+                </div>
+                <span class="inline-block text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-md mt-1">
+                  Pagamento Único
+                </span>
+              </div>
+            </div>
+
+            <ul class="space-y-3 my-6 text-sm text-gray-700">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                <span><strong>100 Modelos</strong> de Lembrancinhas de Natal</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                <span>Arquivos em PDF prontos para imprimir</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                <span>Entrega imediata no WhatsApp e E-mail</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                <span>Acesso por 1 ano</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-gray-400">
+                <i class="fa-solid fa-xmark mt-1"></i>
+                <span>Sem os +200 modelos extras e cristãos</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-gray-400">
+                <i class="fa-solid fa-xmark mt-1"></i>
+                <span>Sem os 3 Bônus Exclusivos</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <a
+              href="https://go.pepperpay.com.br/editanatal"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-btn-gold block w-full text-red-950 font-extrabold text-sm sm:text-base py-4 px-4 rounded-2xl text-center uppercase tracking-wide"
+            >
+              QUERO O BÁSICO POR R$ 4,99
+            </a>
+            <p class="text-[11px] text-center text-gray-500 mt-2.5">
+              🔒 Pagamento via Pix ou Cartão com liberação imediata
+            </p>
+          </div>
+        </div>
+
+        <!-- OFERTA 2: KIT COMPLETO 300 LEMBRANCINHAS + BÔNUS R$ 9,99 (DESTAQUE) -->
+        <div class="relative bg-white rounded-3xl p-6 sm:p-8 border-4 border-amber-400 shadow-2xl flex flex-col justify-between order-1 md:order-2 transform md:-translate-y-2">
+          <!-- Faixa Mais Vendido -->
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-amber-300 text-xs sm:text-sm font-extrabold uppercase tracking-wider px-5 py-1.5 rounded-full shadow-lg border-2 border-amber-300 whitespace-nowrap">
+            ⭐ MAIS VENDIDO • SUPER OFERTA ⭐
+          </div>
+
+          <div>
+            <div class="text-center pt-2 pb-5 border-b border-amber-100">
+              <span class="inline-block bg-amber-100 text-amber-900 text-xs font-extrabold uppercase px-3 py-1 rounded-full mb-2">
+                Kit Completo + 3 Bônus Grátis
+              </span>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold text-red-900">Kit Completo 300 Modelos</h3>
+              <p class="text-xs text-gray-600 mt-1">Tudo liberado para imprimir quantas vezes quiser!</p>
+
+              <div class="mt-4 bg-red-50/80 rounded-2xl py-3 px-4 border border-red-100">
+                <span class="text-xs sm:text-sm text-gray-500 line-through font-semibold">De R$ 47,00 por apenas</span>
+                <div class="flex items-baseline justify-center gap-1 text-emerald-700 mt-0.5">
+                  <span class="text-2xl font-extrabold">R$</span>
+                  <span class="font-display text-6xl font-bold tracking-tight">9,99</span>
+                </div>
+                <span class="inline-block text-xs font-extrabold text-red-800 bg-amber-300 px-3 py-0.5 rounded-full mt-1">
+                  PAGAMENTO ÚNICO • ACESSO VITALÍCIO
+                </span>
+              </div>
+            </div>
+
+            <ul class="space-y-3 my-6 text-sm text-gray-800">
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-emerald-600 text-base mt-0.5"></i>
+                <span><strong>TODOS os 300 Modelos</strong> de Lembrancinhas de Natal (Cristãos, Gerais, Infantis e Corporativos)</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-circle-check text-emerald-600 text-base mt-0.5"></i>
+                <span><strong>Porta-Bis, Porta-Bombom, Porta-Lápis, Cartões, Tags e Envelopes</strong> em Alta Resolução</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-gift text-red-600 text-base mt-0.5"></i>
+                <span><strong>BÔNUS 1:</strong> +50 Tags e Etiquetas "De / Para" Natalinas</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-gift text-red-600 text-base mt-0.5"></i>
+                <span><strong>BÔNUS 2:</strong> Modelos Editáveis no Canva (coloque seu nome ou logo se quiser!)</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-solid fa-gift text-red-600 text-base mt-0.5"></i>
+                <span><strong>BÔNUS 3:</strong> Guia Rápido de Papéis e Impressão Perfeita em Casa</span>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <i class="fa-brands fa-whatsapp text-emerald-600 text-base mt-0.5"></i>
+                <span><strong>Entrega Imediata</strong> no WhatsApp e E-mail + <strong>Acesso Vitalício</strong></span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <a
+              href="https://go.pepperpay.com.br/editanatal"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-btn-green block w-full text-white font-extrabold text-base sm:text-lg py-4 px-5 rounded-2xl text-center uppercase tracking-wide animate-pulse-fast"
+            >
+              QUERO O KIT COMPLETO POR R$ 9,99 🎁
+            </a>
+            <div class="flex items-center justify-center gap-3 mt-3 text-xs text-gray-500 font-semibold">
+              <span><i class="fa-solid fa-shield-halved text-emerald-600"></i> Garantia de 7 Dias</span>
+              <span>•</span>
+              <span><i class="fa-solid fa-bolt text-amber-500"></i> Acesso Imediato</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 6: GARANTIA INCONDICIONAL DE 7 DIAS -->
+  <section class="py-12 px-4 max-w-3xl mx-auto">
+    <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-amber-300 shadow-md flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+      <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-amber-300 via-amber-400 to-amber-600 p-1.5 shrink-0 shadow-lg flex items-center justify-center">
+        <div class="w-full h-full rounded-full bg-red-900 text-white flex flex-col items-center justify-center border-2 border-amber-200">
+          <span class="font-display text-2xl sm:text-3xl font-bold text-amber-300 leading-none">7 DIAS</span>
+          <span class="text-[9px] uppercase font-extrabold tracking-wider mt-0.5">Garantia Total</span>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-display text-xl sm:text-2xl font-bold text-gray-900">
+          Risco Zero Para Você! Garantia Incondicional de 7 Dias
+        </h3>
+        <p class="text-sm sm:text-base text-gray-600 mt-2 leading-relaxed">
+          Você tem 7 dias completos para acessar todos os arquivos, baixar e testar. Se por qualquer motivo você achar que o kit não é para você, basta nos chamar que devolvemos <strong>100% do seu dinheiro</strong> sem perguntas e sem burocracia!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 7: PERGUNTAS FREQUENTES (FAQ) -->
+  <section class="py-10 sm:py-14 px-4 max-w-3xl mx-auto">
+    <div class="text-center mb-8">
+      <h2 class="font-display text-2xl sm:text-3xl font-bold text-gray-900">
+        ❓ Dúvidas Frequentes
+      </h2>
+      <p class="text-sm text-gray-600 mt-1">Tire suas dúvidas antes de garantir seu kit</p>
+    </div>
+
+    <div class="space-y-3" id="faq-container">
+      <!-- Pergunta 1 -->
+      <div class="faq-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+        <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex items-center justify-between gap-3">
+          <span>📲 Como vou receber as lembrancinhas?</span>
+          <i class="fa-solid fa-chevron-down text-red-700 faq-icon transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content px-5 text-sm text-gray-600">
+          <p class="pb-4 leading-relaxed">
+            Assim que o pagamento for confirmado (no Pix libera em segundos!), você recebe o link de acesso imediato diretamente no seu <strong>WhatsApp</strong> e também no seu <strong>E-mail</strong> cadastrado.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pergunta 2 -->
+      <div class="faq-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+        <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex items-center justify-between gap-3">
+          <span>🖨️ Preciso de alguma impressora especial ou computador?</span>
+          <i class="fa-solid fa-chevron-down text-red-700 faq-icon transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content px-5 text-sm text-gray-600">
+          <p class="pb-4 leading-relaxed">
+            Não! Você pode baixar os arquivos direto pelo celular ou computador e imprimir em qualquer impressora comum em casa, na escola ou em uma gráfica rápida perto de você. Os arquivos já vão diagramados no tamanho folha A4!
+          </p>
+        </div>
+      </div>
+
+      <!-- Pergunta 3 -->
+      <div class="faq-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+        <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex items-center justify-between gap-3">
+          <span>📄 Qual papel devo usar para imprimir?</span>
+          <i class="fa-solid fa-chevron-down text-red-700 faq-icon transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content px-5 text-sm text-gray-600">
+          <p class="pb-4 leading-relaxed">
+            Para cartões, porta-Bis, porta-bombom e tags, recomendamos papel Offset 180g, Papel Fotográfico ou Papel Vergê (encontrados facilmente em qualquer papelaria). Para etiquetas adesivas, você pode usar papel fotográfico adesivo.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pergunta 4 -->
+      <div class="faq-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+        <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex items-center justify-between gap-3">
+          <span>⛪ Tem modelos cristãos e modelos infantis?</span>
+          <i class="fa-solid fa-chevron-down text-red-700 faq-icon transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content px-5 text-sm text-gray-600">
+          <p class="pb-4 leading-relaxed">
+            Sim! No Kit Completo de R$ 9,99 você recebe modelos cristãos com versículos e mensagens sobre o nascimento de Jesus, além de modelos clássicos com Papai Noel, renas, bonecos de neve e frases corporativas.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pergunta 5 -->
+      <div class="faq-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+        <button type="button" class="faq-toggle w-full px-5 py-4 text-left font-bold text-gray-900 text-sm sm:text-base flex items-center justify-between gap-3">
+          <span>💳 O pagamento é único ou tem mensalidade?</span>
+          <i class="fa-solid fa-chevron-down text-red-700 faq-icon transition-transform duration-200"></i>
+        </button>
+        <div class="faq-content px-5 text-sm text-gray-600">
+          <p class="pb-4 leading-relaxed">
+            É <strong>pagamento 100% único</strong>! Você paga apenas uma vez (R$ 4,99 no Básico ou R$ 9,99 no Kit Completo) e não existe nenhuma cobrança recorrente ou mensalidade.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Final antes do rodapé -->
+    <div class="mt-10 text-center">
+      <a
+        href="https://go.pepperpay.com.br/editanatal"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-btn-green inline-block w-full sm:w-auto text-white font-extrabold text-base sm:text-lg py-4 px-8 rounded-2xl uppercase tracking-wide"
+      >
+        SIM! QUERO RESOLVER MINHAS LEMBRANCINHAS AGORA 🎅
+      </a>
+    </div>
+  </section>
+
+  <!-- NOTIFICAÇÃO FLUTUANTE DE PROVA SOCIAL (TOAST) -->
+  <div id="social-toast" class="fixed bottom-4 left-4 z-40 bg-white border-2 border-emerald-500 shadow-xl rounded-2xl p-3 flex items-center gap-3 max-w-xs transition-all duration-500 opacity-0 translate-y-6 pointer-events-none">
+    <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-lg shrink-0">
+      🎁
+    </div>
+    <div class="text-xs leading-snug">
+      <p class="font-extrabold text-gray-900" id="toast-name">Mariana S. (SP)</p>
+      <p class="text-gray-600" id="toast-action">Garantiu o <strong>Kit Completo 300 Modelos</strong> agora!</p>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-red-950 text-red-200 pt-10 pb-8 px-4 border-t-4 border-amber-400">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm font-bold text-amber-200 mb-6">
+        <span class="flex items-center gap-1.5"><i class="fa-solid fa-lock"></i> Site 100% Seguro</span>
+        <span class="flex items-center gap-1.5"><i class="fa-brands fa-pix"></i> Liberação Imediata no Pix</span>
+        <span class="flex items-center gap-1.5"><i class="fa-brands fa-whatsapp"></i> Suporte via WhatsApp</span>
+      </div>
+
+      <p class="text-xs text-red-300/80 max-w-2xl mx-auto leading-relaxed mb-6">
+        Este produto é 100% digital (arquivos em PDF/PNG para download e impressão). Nenhum item físico será enviado pelos Correios. Os resultados e acabamentos dependem do papel e impressora utilizados.
+      </p>
+
+      <div class="border-t border-red-900 pt-5">
+        <p class="text-sm font-bold text-white tracking-wide">
+          Todos os direitos reservados 2026
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS INTERATIVOS -->
+  <script>
+    // 1. Cronômetro Regressivo de Urgência (15 minutos)
+    (function startCountdown() {
+      const display = document.getElementById('countdown');
+      let totalSeconds = 14 * 60 + 59; // 14:59
+
+      setInterval(() => {
+        if (totalSeconds <= 0) {
+          totalSeconds = 14 * 60 + 59;
+        }
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = totalSeconds % 60;
+        display.textContent =
+          String(minutes).padStart(2, '0') + ':' + String(seconds).padStart(2, '0');
+        totalSeconds--;
+      }, 1000);
+    })();
+
+    // 2. Accordion Interativo do FAQ
+    document.querySelectorAll('.faq-toggle').forEach((button) => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        const isActive = item.classList.contains('active');
+
+        // Fecha os outros itens para manter limpo no mobile
+        document.querySelectorAll('.faq-item').forEach((el) => el.classList.remove('active'));
+
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // 3. Notificações sutis de compra recente (Prova Social)
+    (function startSocialProof() {
+      const buyers = [
+        { name: 'Ana Paula R. (MG)', plan: 'Kit Completo 300 Modelos' },
+        { name: 'Fernanda L. (SP)', plan: 'Kit Completo 300 Modelos' },
+        { name: 'Patrícia M. (RJ)', plan: 'Pacote Básico R$ 4,99' },
+        { name: 'Carla S. (BA)', plan: 'Kit Completo 300 Modelos' },
+        { name: 'Beatriz O. (PR)', plan: 'Kit Completo 300 Modelos' },
+        { name: 'Luciana T. (GO)', plan: 'Kit Completo 300 Modelos' }
+      ];
+
+      const toast = document.getElementById('social-toast');
+      const nameEl = document.getElementById('toast-name');
+      const actionEl = document.getElementById('toast-action');
+      let index = 0;
+
+      function showToast() {
+        const buyer = buyers[index % buyers.length];
+        nameEl.textContent = buyer.name;
+        actionEl.innerHTML = `Acabou de garantir o <strong>${buyer.plan}</strong>!`;
+
+        toast.classList.remove('opacity-0', 'translate-y-6');
+        toast.classList.add('opacity-100', 'translate-y-0');
+
+        setTimeout(() => {
+          toast.classList.remove('opacity-100', 'translate-y-0');
+          toast.classList.add('opacity-0', 'translate-y-6');
+        }, 4200);
+
+        index++;
+      }
+
+      setTimeout(() => {
+        showToast();
+        setInterval(showToast, 11000);
+      }, 3500);
+    })();
+
+    // 4. Flocos de neve leves no fundo
+    (function createSnowflakes() {
+      const container = document.getElementById('snow-container');
+      const flakeCount = 16;
+
+      for (let i = 0; i < flakeCount; i++) {
+        const flake = document.createElement('div');
+        flake.className = 'snowflake';
+        flake.textContent = '❄';
+        flake.style.left = Math.random() * 100 + 'vw';
+        flake.style.fontSize = (Math.random() * 10 + 10) + 'px';
+        flake.style.animationDuration = (Math.random() * 8 + 7) + 's';
+        flake.style.animationDelay = (Math.random() * 6) + 's';
+        container.appendChild(flake);
+      }
+    })();
+  </script>
+</body>
+</html>
